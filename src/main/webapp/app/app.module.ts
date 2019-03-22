@@ -22,6 +22,7 @@ import * as moment from 'moment';
 import { NgxStripeModule } from 'ngx-stripe';
 import { StripePaymentsModule } from './payments/payments.module';
 import 'hammerjs';
+import { StripeAppPaypalPaymentsModule } from './paypal-payments/paypal-payments.module';
 // jhipster-needle-angular-add-module-import JHipster will add new module here
 import { JhiMainComponent, NavbarComponent, FooterComponent, PageRibbonComponent, ActiveMenuDirective, ErrorComponent } from './layouts';
 
@@ -43,6 +44,7 @@ import { JhiMainComponent, NavbarComponent, FooterComponent, PageRibbonComponent
         StripeAccountModule,
         StripePaymentsModule,
         NgxStripeModule.forRoot('pk_test_xxxxxxxxxxxxxxxxxxxxxxxx'),
+        StripeAppPaypalPaymentsModule,
         // jhipster-needle-angular-add-module JHipster will add new module here
         StripeEntityModule,
         StripeAppRoutingModule
