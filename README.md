@@ -1,9 +1,10 @@
 # stripe
 
-example code
-            <mat-card-actions>
-                <button mat-button [routerLink]=" ['./payments'] ">BUY</button>
-            </mat-card-actions>
+example code.
+
+<mat-card-actions>
+    <button mat-button [routerLink]=" ['./payments'] ">BUY</button>
+</mat-card-actions>
             
 
 This application was generated using JHipster 5.8.0, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v5.8.0](https://www.jhipster.tech/documentation-archive/v5.8.0).
